@@ -2076,8 +2076,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #000;
-  background-color: #0dca91;
-  border-color: #0dca91;
+  background-color: #C2D6D2;
+  border-color: #C2D6D2;
 }
 
 .btn-primary:hover {
@@ -12258,7 +12258,7 @@ body.loaded #preloader {
   text-align: center;
   color: #fff;
   border-radius: 50%;
-  background-color: #0dca91;
+  background-color: #C2D6D2;
   -webkit-box-shadow: 0px 0px 30px rgba(13, 202, 145, 0.25);
           box-shadow: 0px 0px 30px rgba(13, 202, 145, 0.25);
   -webkit-transition: all .15s ease-in-out;
