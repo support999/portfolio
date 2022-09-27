@@ -2076,14 +2076,14 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #000;
-  background-color: #C2D6D2;
-  border-color: #C2D6D2;
+  background-color: #14AAFD;
+  border-color: #14AAFD;
 }
 
 .btn-primary:hover {
   color: #000;
-  background-color: #31d2a2;
-  border-color: #25cf9c;
+  background-color: #14AAFD;
+  border-color: #14AAFD;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -2403,14 +2403,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-  color: #0dca91;
-  border-color: #0dca91;
+  color: #7221FF;
+  border-color: #7221FF;
 }
 
 .btn-outline-primary:hover {
   color: #000;
-  background-color: #0dca91;
-  border-color: #0dca91;
+  background-color: #7221FF;
+  border-color: #7221FF;
 }
 
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
