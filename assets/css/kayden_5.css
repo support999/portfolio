@@ -2044,7 +2044,7 @@ progress {
   border: 1px solid transparent;
   padding: 0.6rem 1.7rem;
   font-size: 1rem;
-  border-radius: 0;
+  border-radius: 22px;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2064,8 +2064,8 @@ progress {
 
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(13, 202, 145, 0.25);
-          box-shadow: 0 0 0 0.25rem rgba(13, 202, 145, 0.25);
+  -webkit-box-shadow: 0 0 0 0.25rem #192395;
+          box-shadow: 0 0 0 0.25rem #192395;
 }
 
 .btn:disabled, .btn.disabled,
@@ -2076,43 +2076,43 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #000;
-  background-color: #14AAFD;
-  border-color: #14AAFD;
+  background-color: #f3b705;
+  border-color: #f3b705;
 }
 
 .btn-primary:hover {
   color: #000;
-  background-color: #14AAFD;
-  border-color: #14AAFD;
+  background-color: #f3b705;
+  border-color: #f3b705;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #000;
-  background-color: #31d2a2;
-  border-color: #25cf9c;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(11, 172, 123, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(11, 172, 123, 0.5);
+  background-color: #ffb45f;
+  border-color: #ffb45f;
+  -webkit-box-shadow: 0 0 0 0.25rem #f3b705;
+          box-shadow: 0 0 0 0.25rem #f3b705;
 }
 
 .btn-check:checked + .btn-primary,
 .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
   color: #000;
-  background-color: #3dd5a7;
-  border-color: #25cf9c;
+  background-color: #e1c572;
+  border-color: #e1c572;
 }
 
 .btn-check:checked + .btn-primary:focus,
 .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(11, 172, 123, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(11, 172, 123, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25rem #ffb45f;
+          box-shadow: 0 0 0 0.25rem #ffb45f;
 }
 
 .btn-primary:disabled, .btn-primary.disabled {
   color: #000;
-  background-color: #0dca91;
-  border-color: #0dca91;
+  background-color: #f3b705;
+  border-color: #f3b705;
 }
 
 .btn-secondary {
@@ -6394,7 +6394,7 @@ textarea.form-control-lg {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #0dca91;
+  background-color: #f3b705;
   -webkit-transition: width 1.5s ease-in-out;
   transition: width 1.5s ease-in-out;
 }
@@ -12258,7 +12258,7 @@ body.loaded #preloader {
   text-align: center;
   color: #fff;
   border-radius: 50%;
-  background-color: #C2D6D2;
+  background-color: #f3b705;
   -webkit-box-shadow: 0px 0px 30px rgba(13, 202, 145, 0.25);
           box-shadow: 0px 0px 30px rgba(13, 202, 145, 0.25);
   -webkit-transition: all .15s ease-in-out;
