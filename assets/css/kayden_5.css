@@ -2403,32 +2403,32 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-  color: #7221FF;
-  border-color: #7221FF;
+  color: #f3b705;
+  border-color: #f3b705;
 }
 
 .btn-outline-primary:hover {
   color: #000;
-  background-color: #7221FF;
-  border-color: #7221FF;
+  background-color: #f3b705;
+  border-color: #f3b705;
 }
 
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(13, 202, 145, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(13, 202, 145, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25rem rgb(243, 183, 5);
+          box-shadow: 0 0 0 0.25rem rgb(243, 183, 5);
 }
 
 .btn-check:checked + .btn-outline-primary,
 .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #000;
-  background-color: #0dca91;
-  border-color: #0dca91;
+  background-color: #f3b705;
+  border-color: #f3b705;
 }
 
 .btn-check:checked + .btn-outline-primary:focus,
 .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(13, 202, 145, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(13, 202, 145, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25rem rgb(243, 183, 5);
+          box-shadow: 0 0 0 0.25rem rgb(243, 183, 5);
 }
 
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
@@ -5270,7 +5270,7 @@ fieldset:disabled .btn {
   color: #212529;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #0dca91;
+  border: 1px solid #f3b705;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -6162,7 +6162,7 @@ textarea.form-control-lg {
   margin-bottom: 1rem;
   color: #212529;
   vertical-align: top;
-  border-color: #0dca91;
+  border-color: #f3b705;
 }
 
 .table > :not(caption) > * > * {
@@ -7947,7 +7947,7 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #0dca91 !important;
+  color: #f3b705 !important;
 }
 
 .text-secondary {
@@ -11635,12 +11635,12 @@ section.section_background {
   outline: none;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  background-color: #076a4c;
+  background-color: #f3b705;
 }
 
 .owl-dots .owl-dot.active span {
   width: 40px;
-  background-color: #0dca91;
+  background-color: #f3b705;
 }
 
 .row .owl-nav {
@@ -11731,7 +11731,7 @@ section.section_background {
 
 .kayden-underline-left:after {
   content: "";
-  background-color: #0dca91;
+  background-color: #f3b705;
   height: 5px;
   width: 80%;
   position: absolute;
@@ -11748,7 +11748,7 @@ section.section_background {
 
 .kayden-underline-center:after {
   content: "";
-  background-color: #0dca91;
+  background-color: #f3b705;
   height: 5px;
   width: 80%;
   position: absolute;
@@ -11769,7 +11769,7 @@ section.section_background {
   }
   .kayden-underline-sm-right:after {
     content: "";
-    background-color: #0dca91;
+    background-color: #f3b705;
     height: 5px;
     width: 80%;
     position: absolute;
@@ -12289,13 +12289,13 @@ body.loaded #preloader {
 
 .kayden-gradient-grid .row:first-child [class^="col-"]:not(:last-child):after {
   content: "";
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #0dca91), to(rgba(13, 202, 145, 0)));
-  background: linear-gradient(0deg, #0dca91 40%, rgba(13, 202, 145, 0) 100%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #f3b705), to(rgba(13, 202, 145, 0)));
+  background: linear-gradient(0deg, #f3b705 40%, rgba(13, 202, 145, 0) 100%);
 }
 
 .kayden-gradient-grid .row:first-child [class^="col-"]:before {
   content: "";
-  background: #0dca91;
+  background: #f3b705;
 }
 
 .kayden-gradient-grid .row:last-child [class^="col-"]:first-child:before {
@@ -12304,8 +12304,8 @@ body.loaded #preloader {
 
 .kayden-gradient-grid .row:last-child [class^="col-"]:not(:last-child):after {
   content: "";
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #0dca91), to(rgba(13, 202, 145, 0)));
-  background: linear-gradient(180deg, #0dca91 40%, rgba(13, 202, 145, 0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #f3b705), to(rgba(13, 202, 145, 0)));
+  background: linear-gradient(180deg, #f3b705 40%, rgba(13, 202, 145, 0) 100%);
 }
 
 .kayden-gradient-grid .row:last-child [class^="col-"]:last-child:before {
@@ -12322,14 +12322,14 @@ body.loaded #preloader {
 
 .kayden-gradient-grid .row [class^="col-"]:first-child:before {
   content: "";
-  background: -webkit-gradient(linear, right top, left top, color-stop(40%, #0dca91), to(rgba(13, 202, 145, 0)));
-  background: linear-gradient(270deg, #0dca91 40%, rgba(13, 202, 145, 0) 100%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(40%, #f3b705), to(rgba(13, 202, 145, 0)));
+  background: linear-gradient(270deg, #f3b705 40%, rgba(13, 202, 145, 0) 100%);
 }
 
 .kayden-gradient-grid .row [class^="col-"]:last-child:before {
   content: "";
-  background: -webkit-gradient(linear, left top, right top, color-stop(40%, #0dca91), to(rgba(13, 202, 145, 0)));
-  background: linear-gradient(90deg, #0dca91 40%, rgba(13, 202, 145, 0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(40%, #f3b705), to(rgba(13, 202, 145, 0)));
+  background: linear-gradient(90deg, #f3b705 40%, rgba(13, 202, 145, 0) 100%);
 }
 
 .kayden-gradient-grid .row [class^="col-"]:last-child:after {
@@ -12338,18 +12338,18 @@ body.loaded #preloader {
 
 .kayden-gradient-grid .row [class^="col-"]:before {
   content: "";
-  background: #0dca91;
+  background: #f3b705;
 }
 
 .kayden-gradient-grid .row [class^="col-"]:after {
   content: "";
-  background: #0dca91;
+  background: #f3b705;
 }
 
 .kayden-gradient-grid .row.kayden-single-row [class^="col-"]:not(:last-child):after {
   content: "";
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, rgba(13, 202, 145, 0)), color-stop(50%, #0dca91), color-stop(90%, rgba(13, 202, 145, 0)));
-  background: linear-gradient(180deg, rgba(13, 202, 145, 0) 10%, #0dca91 50%, rgba(13, 202, 145, 0) 90%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, rgba(13, 202, 145, 0)), color-stop(50%, #f3b705), color-stop(90%, rgba(13, 202, 145, 0)));
+  background: linear-gradient(180deg, rgba(13, 202, 145, 0) 10%, #f3b705 50%, rgba(13, 202, 145, 0) 90%);
 }
 
 /* 6.4 To TOP */
@@ -12372,8 +12372,8 @@ body.loaded #preloader {
 @media (max-width: 575.98px) {
   .kayden-gradient-grid [class^="col-sm"]:before {
     content: "" !important;
-    background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(13, 202, 145, 0)), color-stop(50%, #0dca91), color-stop(90%, rgba(13, 202, 145, 0))) !important;
-    background: linear-gradient(90deg, rgba(13, 202, 145, 0) 10%, #0dca91 50%, rgba(13, 202, 145, 0) 90%) !important;
+    background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(13, 202, 145, 0)), color-stop(50%, #f3b705), color-stop(90%, rgba(13, 202, 145, 0))) !important;
+    background: linear-gradient(90deg, rgba(13, 202, 145, 0) 10%, #f3b705 50%, rgba(13, 202, 145, 0) 90%) !important;
   }
   .kayden-gradient-grid [class^="col-sm"]:after {
     content: none !important;
@@ -12386,8 +12386,8 @@ body.loaded #preloader {
 @media (max-width: 767.98px) {
   .kayden-gradient-grid [class^="col-md"]:before {
     content: "" !important;
-    background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(13, 202, 145, 0)), color-stop(50%, #0dca91), color-stop(90%, rgba(13, 202, 145, 0))) !important;
-    background: linear-gradient(90deg, rgba(13, 202, 145, 0) 10%, #0dca91 50%, rgba(13, 202, 145, 0) 90%) !important;
+    background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(13, 202, 145, 0)), color-stop(50%, #f3b705), color-stop(90%, rgba(13, 202, 145, 0))) !important;
+    background: linear-gradient(90deg, rgba(13, 202, 145, 0) 10%, #f3b705 50%, rgba(13, 202, 145, 0) 90%) !important;
   }
   .kayden-gradient-grid [class^="col-md"]:after {
     content: none !important;
@@ -12400,8 +12400,8 @@ body.loaded #preloader {
 @media (max-width: 991.98px) {
   .kayden-gradient-grid div[class^="col-lg"]:before {
     content: "" !important;
-    background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(13, 202, 145, 0)), color-stop(50%, #0dca91), color-stop(90%, rgba(13, 202, 145, 0))) !important;
-    background: linear-gradient(90deg, rgba(13, 202, 145, 0) 10%, #0dca91 50%, rgba(13, 202, 145, 0) 90%) !important;
+    background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(13, 202, 145, 0)), color-stop(50%, #f3b705), color-stop(90%, rgba(13, 202, 145, 0))) !important;
+    background: linear-gradient(90deg, rgba(13, 202, 145, 0) 10%, #f3b705 50%, rgba(13, 202, 145, 0) 90%) !important;
   }
   .kayden-gradient-grid div[class^="col-lg"]:after {
     content: none !important;
