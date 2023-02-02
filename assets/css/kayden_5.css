@@ -2477,8 +2477,8 @@ fieldset:disabled .btn {
 
 .btn-outline-success:hover {
   color: #fff;
-  background-color: #198754;
-  border-color: #198754;
+  background-color: #ffc107;
+  border-color: #ffc107;
 }
 
 .btn-check:focus + .btn-outline-success, .btn-outline-success:focus {
@@ -2489,8 +2489,8 @@ fieldset:disabled .btn {
 .btn-check:checked + .btn-outline-success,
 .btn-check:active + .btn-outline-success, .btn-outline-success:active, .btn-outline-success.active, .btn-outline-success.dropdown-toggle.show {
   color: #fff;
-  background-color: #198754;
-  border-color: #198754;
+  background-color: #ffc107;
+  border-color: #ffc107;
 }
 
 .btn-check:checked + .btn-outline-success:focus,
@@ -2500,7 +2500,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-success:disabled, .btn-outline-success.disabled {
-  color: #198754;
+  color: #ffc107;
   background-color: transparent;
 }
 
