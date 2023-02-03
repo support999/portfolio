@@ -12171,7 +12171,7 @@ img.fit-right-top {
   border-radius: 50%;
   -webkit-animation: loader 1s linear infinite;
           animation: loader 1s linear infinite;
-  background: #0dca91;
+  background: #ffc107;
 }
 
 body.loaded #preloader {
